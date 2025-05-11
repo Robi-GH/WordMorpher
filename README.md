@@ -1,2 +1,2 @@
 # WordMorpher
-Efficient word transformation puzzle solver using custom-cost edit operations (insert, delete, substitute). Finds optimal word paths from one word to another within a dictionary.
+This project solves a generalized version of a word transformation puzzle. Given a dictionary of English words and a set of edit operation costs (insert, delete, substitute), the algorithm finds the minimum-cost sequence to transform one word into another. The solution supports finding 100 random word pairs that can be transformed in k ≤ 6 operations, with optimizations for large dictionaries.
